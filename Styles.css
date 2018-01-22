@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: lightgray;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+	font-size: 20px;
+}
+
+header {
+    color: #999999;
+    font-family: Orbitron, sans-serif;
+    background-image: url(Images/headerbg.png);
+	height: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+    padding: 15px 0 25px 0;
+	font-size: 24px;
+}
+
+.logo img {
+	position: absolute;
+	top: 5%;
+	right: 15%;
+}
+
+.bryanimage img {
+	border: 3px solid white;
+	border-radius: 50%;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	right: 75%;
+}
+
+.intro {
+    background-color: #367BDC;
+    color: white;
+}
+
+.column{    
+	font-family: Lato, sans-serif;
+}
+
+.lefttitle, .middletitle, .righttitle {
+    text-decoration: underline;
+    font-style: italic;
+    color: #4D7340;
+    text-shadow: 3px 3px 2px #999;
+}
+
+.columnheader {
+    text-decoration: underline;
+    font-size: 22px;
+    font-style: italic;
+	font-weight: bold;
+    text-shadow: 3px 3px 2px #999;
+}
+
+.leftcolumn {
+    float: left;
+    width: 25%;
+	padding: 0 50px;
+	height: 145px;
+    border: 2px #AAA;
+    border-right-style: outset;
+}
+
+
+.middlecolumn {
+	float: left;
+    width: 25%;
+	height: 145px;
+	padding: 0 50px;
+    border: 2px #AAA;
+    border-left-style: outset;
+    border-right-style: outset;
+    
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+	height: 145px;
+	padding: 0 50px;
+    border: 2px #AAA;
+    border-left-style: outset;
+    
+}
+
+
+
+.skills {
+	clear: both;
+	background-color: #181818;
+	display: inline-block;
+	width: 100%;
+	color: white;
+}
+
+.imagehtml {
+	float: left;
+	width: 50%;
+}
+
+.imagecss {
+	float: right;
+	width: 50%;
+}
+
+.footer {
+    clear: both;
+    text-align: left;
+    display: inline-block;
+    background-color: #333;
+    color: #999;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+}
