@@ -1,3 +1,7 @@
+html {
+	text-align: center;
+	margin: 0 auto;
+}
 header {
 	font-family: 'Orbitron', sans-serif;
 }
@@ -27,11 +31,18 @@ footer {
 	color: lightgray;
 }
 
-@media screen and (max-width: 767px) {
-	header {
-		
+/*@media screen and (max-width: 767px) {
+	html {
+		margin: 0 auto;
+		font-size: 25px;
 	}
-}
-@media (min-width: 768px) and (max-width: 1200px) {
-	
+	main {
+		font-size: 25px;
+	}
+}*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.wrapper {
+		margin-left: 5%;
+		margin-right: 5%
+	}
 }
