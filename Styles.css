@@ -1,0 +1,51 @@
+.jumbotron {
+	background-image: url(Images/headerbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.jumbotron h3 {
+	color: gray;
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+main {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25rem;
+}
+
+article {
+	background-color: #a0a6c4;
+	font-family: 'Roboto', sans-serif;
+}
+
+article p {
+	font-family: 'Lato', sans-serif;
+}
+
+section {
+	font-family: 'Open Sans', sans-serif;
+	background-color: lightgray;
+}
+
+footer {
+	background-color: darkgray;
+	font-size: .75rem;
+}
+
+@media (max-width: 768px){
+	.jumbotron {
+		background-position: right;
+	}
+	
+	.jumbotron h1 ~ h3 {
+		color: white;
+	}
+}
