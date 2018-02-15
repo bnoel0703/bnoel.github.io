@@ -2,52 +2,107 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bryan Noel | Resume</title>
 <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Oswald" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Oswald|Roboto" rel="stylesheet">
 <link href="Styles.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<script src="js/bootstrap.js" type="type/javascript"></script>
-<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
-
-
 </head>
 <body>
-	<header>
-		<h1><strong>My Name's Bryan Noel</strong></h1>
-		<h3>And I am a Developer</h3>
-		<!--Picture here -->
-		<!-- Logo here -->
+	<header class="jumbotron">
+		<div class="text-center">
+			<img src="Images/My_Logo.png" class="img-fluid" width="100px">
+			<h1>Bryan Noel</h1>
+			<h3>Developer and Solution Provider</h3>
+			<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#ContactModal">Let's work together</button>
+		</div>
 	</header>
-	<main>
-		<section>
-			<p class="intro">I am a self trained Software and Web Developer.<br>I specialize in .Net Techonologies and am adept with C#, UWP, and ASP.Net.<br>I also have a working knowledge of web development technologies such as HTML5, CSS3, Javascript for front-end and PHP and Python for back-end.<br>My training comes primarily from online courses from Pluralsight and Treehouse as well as books that I have read to further my studies.</p>
-		</section>
-		<article>
-			<div class="container">
-				<div class="column">
-					<div class="column-header">Flexible</div>
-					<p>I am available for various hours and can easily find time to work on a project.</p>
-					<div class="column-header">Clean Code</div>
-					<p>I know full well that I may not be the first person to touch your code and I certainly will not be the last person to touch it. The code I write will be clear so that it is easy to maintain.</p>
-					<div class="column-header">Communication</div>
-					<p>Communication is important to ensure a job is done correctly. If there is anything that needs to be changed or accounted for I will let you know promptly and will respond to your requests in a timely fashion.</p>
-				</div>
-			</div>
-		</article>
-		<section class="skills">
-			<div>Talk is cheap so here is a source of my learning and training.</div>
-			<!-- Treehouse profile/transcript goes here -->
-			<!-- Pluralsight transcript and SkillIQ tests go here -->
-		</section>
-		<form>
-			<!-- Contact form with fieldset goes here -->
-		</form>
-		<footer>
-			<div>Handcrafted by Me</div>
-			<div>Look for me on these social media sites</div>
-			<!-- Social Media Icons and buttons go here -->
-		</footer>
+	<main class="text-center">
+		<div class="container">
+			<p class="pt-4">I am a self-taught web and software developer motivated by sheer passion and dedication.<br>I have taken a shine to .Net development and have attained an adept level of knowledge with C#, ASP.Net, UWP, Xamarin, XAML, and WPF.<br>Although .Net is my specialty, I have also acquired a great deal of knowledge with web development technologies such as HTML, CSS, and Javascript. I can also utilize Python and PHP for back-end development.</p>
+		</div>
 	</main>
+	<article class="container-fluid text-center">
+		<h4 class="mb-4">Here's what you can expect when working with me</h4>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md">
+			  <u><h5>Lifelong Learner</h5></u><br>
+			  <p>I take this very seriously. Being a lifelong learner is the only way to ensure one keeps pace with an ever changing world of technology. This is my passion and it would be a wasted opportunity to not pursue any and every means I can to increase my knowledge of it.</p>
+			</div>
+			<div class="col-md">
+			  <u><h5>Clean Code</h5></u><br>
+			  <p>It's one thing to code. It's another thing entirely to write code that is clean, self-descriptive, and abides by common coding principles like the SOLID principles. Through my coursework and independent study, I have gained the knowledge needed to utilize these methods.</p>
+			</div>
+			<div class="col-md">
+			  <u><h5>Communication</h5></u><br>
+			  <p>Being a strong communicator is essential to teamwork. Due to my previous work experiences, I am no stranger to working as part of a team and collaborating with my team members to ensure that we are all on the same page and working towards the same goal.</p>
+			</div>
+		  </div>
+		</div>
+	</article>		
+	<hr>
+	<blockquote class="container text-center">
+		<div class="blockquote font-italic mb-0">Many of life's failures are those who gave up without realizing how close to success they were.</div>
+		<div class="blockquote-footer text-muted">Thomas Edison</div>
+	</blockquote>
+	<hr>
+	<section class="container-fluid skills">
+		<!-- Skills go here -->
+		<h4 class="text-center py-4">Nothing is more representative of a person's word than proof. Here is what I've done to acquire the knowledge I have.</h4>
+		<a href="https://teamtreehouse.com/bryannoel" target="_blank"><img src="Images/Treehouse Logo Green - Small.png" class="img-fluid mx-auto d-block border rounded bg-white" width="150px"></a>
+		<p class="text-center mb-5"><strong>Treehouse</strong> is a huge fountain of knowledge for development and design and provides real world examples to solidify the skills that are taught. The bar represents what I've learned and where I put my focus.<br> Click the logo to see my profile there.</p>
+		<a href="https://app.pluralsight.com/profile/bnoel0703" target="_blank"><img src="Images/pluralsight-logo-vrt-color-2.png" class="img-fluid mx-auto d-block border rounded bg-white" width="150px"></a>
+		<p class="text-center mb-5"><strong>Pluralsight</strong> is another source of knowledge for me. This is a platform that is used by major corporations to keep their development team up to date with new skills and technologies. The logo will take you right to my learning transcript as well as assessment tests to verify knowledge of a skill.</p>		
+	</section>
+	<aside class="container text-center">
+		<h2>Social Networks</h2>
+		<p>I can be found on a few different sources. <a href="https://www.linkedin.com/in/bnoel0703/">LinkedIn</a> is a great way to make connections and advance a career. <a href="https://twitter.com/Bnoel0703">Twitter</a>, however, is a more casual network that I utilize to follow certain people whether they be other developers, influencers, or certain companies. I may tweet every once in a blue moon but it is not often.</p>
+		<a href="https://github.com/bnoel0703" title="My Repositories" target="_blank"><img src="Images/GitHub-Mark-120px-plus.png"></a>
+		<h2>GitHub</h2>
+		<p>It goes without explanation that GitHub is by far the most important thing to developers. You can click the logo to be taken straight to my repositories. There, I will be uploading my practice projects from my books as well as online classes and courses.</p>		
+	</aside>
+	<footer class="container-fluid">
+		<div>Handcrafted by me.</div>
+	</footer>
+	
+	<!--Form Modal-->
+	<div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header bg-secondary text-white">
+			<h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<!--Contact Form-->
+			<form id="contact">
+			  <div class="alert alert-success" role="alert">
+  				Hey! Thanks for your interest! I'll get back to you as soon as I can. Just hit Submit once the info's filled out.
+			  </div>
+			  <div class="form-group">
+				<label for="Name">Name:</label>
+				<input type="text" class="form-control" id="name" required>
+			  </div>
+			  <div class="form-group">
+				<label for="Email">Email:</label>
+				<input type="email" class="form-control" id="email" required>
+			  </div>
+			  <textarea name="textarea" id="comments" rows="5" cols="35" placeholder="What can I do for you?" required></textarea>
+			  <hr class="mb-4">
+			  <button type="submit" name="newcontact" formmethod="post" class="btn-outline-secondary btn-sm">Submit</button>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!--/Form Modal-->
+	<script src="Script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
 </body>
 </html>
