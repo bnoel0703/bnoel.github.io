@@ -30,6 +30,10 @@ article p {
 	font-family: 'Lato', sans-serif;
 }
 
+blockquote {
+	text-shadow: 2px 2px 5px #BBB;
+}
+
 section {
 	font-family: 'Open Sans', sans-serif;
 	background-color: lightgray;
