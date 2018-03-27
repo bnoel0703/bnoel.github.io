@@ -26,6 +26,10 @@ article {
 	font-family: 'Roboto', sans-serif;
 }
 
+.column-icon {
+	opacity: 0;
+}
+
 article p {
 	font-family: 'Lato', sans-serif;
 }
@@ -48,7 +52,7 @@ footer {
 	.jumbotron {
 		background-position: right;
 	}
-	
+
 	.jumbotron h1 ~ h3 {
 		color: white;
 	}
