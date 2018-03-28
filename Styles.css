@@ -16,6 +16,15 @@
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
+.logo {
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(.36,-0.66,.72,1.33);
+}
+
+.logo:hover {
+	transform: scale(1.2, 1.2) rotate(1turn);
+}
+
 main {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.25rem;
